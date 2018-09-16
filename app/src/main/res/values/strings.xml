@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tourguide-app</string>
+
+    <string name="category_numbers">Numbers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
