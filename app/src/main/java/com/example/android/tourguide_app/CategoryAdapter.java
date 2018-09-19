@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentManager;
 
 
 public class CategoryAdapter extends FragmentPagerAdapter {
-    private String tabTitles[] = new String[]{"Falls", "Food", "Park"};
+    private String tabTitles[] = new String[]{"Falls", "Food", "Park","Movie"};
 
     public CategoryAdapter(FragmentManager fm) {
         super(fm);
@@ -19,9 +19,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new FallsFragment();
         } else if (position == 1) {
             return new FoodFragment();
-        } else {
+        } else if(position==2) {
             return new ParkFragment();
         }
+        else{
+            return new MovieFragment();
+        }
+
 
     }
 
@@ -33,7 +37,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
 

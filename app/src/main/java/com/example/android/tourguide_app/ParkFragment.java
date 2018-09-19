@@ -33,10 +33,10 @@ public class ParkFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Tour> words = new ArrayList<Tour>();
-        words.add(new Tour("Jubli Park", "Jubilee Park is a park located in the city of Jamshedpur in India. It is a popular destination for all those who wish to have an outdoor picnic, enjoy some outdoor ...", R.drawable.jubli_park));
-        words.add(new Tour("Rock Garden", "Rock Garden in Ranchi is considered to be one of the most visited places of the city as well as the state.", R.drawable.rock_garden_park));
-        words.add(new Tour("Tagore Gill", "The Tagore Hill also known as Morabadi Hill is situated in Morabadi, Ranchi, Jharkhand. It's a place of attraction for jharkhand tourism due to its connection with great poet Rabindra Nath Tagore.", R.drawable.tagore_hill_park));
-        words.add(new Tour("Water Park", "Fun Castle is the best water Park in Ranchi.If you are in Ranchi and when ever you gonna ask about the full Family and friends Masti Pack than one and only Name will come out that is Fun Castle Water Park. ", R.drawable.water_park));
+        words.add(new Tour("Jubli Park", getString(R.string.Jubli), R.drawable.jubli_park));
+        words.add(new Tour("Rock Garden", getString(R.string.Rock), R.drawable.rock_garden_park));
+        words.add(new Tour("Tagore Gill", getString(R.string.Tagore), R.drawable.tagore_hill_park));
+        words.add(new Tour("Water Park", getString(R.string.Water), R.drawable.water_park));
 
 
 

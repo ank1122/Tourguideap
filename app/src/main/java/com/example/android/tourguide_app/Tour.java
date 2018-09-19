@@ -1,5 +1,7 @@
 package com.example.android.tourguide_app;
 
+import java.lang.String;
+
 public class Tour {
 
 

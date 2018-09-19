@@ -8,23 +8,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-
+import android.widget.TextView;
 
 import java.util.ArrayList;
-
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link FallsFragment.OnFragmentInteractionListener} interface
+ * {@link MovieFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link FallsFragment#newInstance} factory method to
+ * Use the {@link MovieFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FallsFragment extends Fragment {
-
-
-    public FallsFragment() {
+public class MovieFragment extends Fragment {
+    public MovieFragment() {
         // Required empty public constructor
     }
 
@@ -35,11 +32,14 @@ public class FallsFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Tour> words = new ArrayList<Tour>();
-        words.add(new Tour("Dasam Fall", getResources().getString(R.string.dasam), R.drawable.dassam_fall));
-        words.add(new Tour("Hundru Fall", getResources().getString(R.string.hundru), R.drawable.hundru_fall));
-        words.add(new Tour("Sita fall", getResources().getString(R.string.sita), R.drawable.sita_fall));
-        words.add(new Tour("Jona Fall", getResources().getString(R.string.jona), R.drawable.jona_fall));
-        words.add(new Tour("Hirni Fall", getResources().getString(R.string.hirni), R.drawable.hirni_fall));
+        words.add(new Tour("Eyelex Cinema", getString(R.string.Eyelex), R.drawable.eyelexcinema));
+        words.add(new Tour("Popcorn Cinema", getString(R.string.Popcorn), R.drawable.popcorncinema));
+        words.add(new Tour("Fun Cinema", getString(R.string.Fun), R.drawable.funcinemas));
+        words.add(new Tour("PVR Cinema", getString(R.string.Pvr), R.drawable.pvrcinema));
+        words.add(new Tour("Carnival Cinema", getString(R.string.Carnival), R.drawable.carnivalcinema));
+        words.add(new Tour("JD High Street ", getString(R.string.Jd), R.drawable.srscinema));
+        words.add(new Tour("Plaza Cinema", getString(R.string.Plaza), R.drawable.plazacinema));
+
 
 
         TourAdapter adapter = new TourAdapter(getActivity(), words, R.color.category_numbers);
@@ -50,8 +50,7 @@ public class FallsFragment extends Fragment {
 
         listView.setAdapter(adapter);
 
+
         return rootView;
     }
-
-
 }
