@@ -32,13 +32,13 @@ public class MovieFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Tour> words = new ArrayList<Tour>();
-        words.add(new Tour("Eyelex Cinema", getString(R.string.Eyelex), R.drawable.eyelexcinema));
-        words.add(new Tour("Popcorn Cinema", getString(R.string.Popcorn), R.drawable.popcorncinema));
-        words.add(new Tour("Fun Cinema", getString(R.string.Fun), R.drawable.funcinemas));
-        words.add(new Tour("PVR Cinema", getString(R.string.Pvr), R.drawable.pvrcinema));
-        words.add(new Tour("Carnival Cinema", getString(R.string.Carnival), R.drawable.carnivalcinema));
-        words.add(new Tour("JD High Street ", getString(R.string.Jd), R.drawable.srscinema));
-        words.add(new Tour("Plaza Cinema", getString(R.string.Plaza), R.drawable.plazacinema));
+        words.add(new Tour(getString(R.string.m1), getString(R.string.Eyelex), R.drawable.eyelexcinema));
+        words.add(new Tour(getString(R.string.m2), getString(R.string.Popcorn), R.drawable.popcorncinema));
+        words.add(new Tour(getString(R.string.m3), getString(R.string.Fun), R.drawable.funcinemas));
+        words.add(new Tour(getString(R.string.m4), getString(R.string.Pvr), R.drawable.pvrcinema));
+        words.add(new Tour(getString(R.string.m5), getString(R.string.Carnival), R.drawable.carnivalcinema));
+        words.add(new Tour(getString(R.string.m6), getString(R.string.Jd), R.drawable.srscinema));
+        words.add(new Tour(getString(R.string.m7), getString(R.string.Plaza), R.drawable.plazacinema));
 
 
 

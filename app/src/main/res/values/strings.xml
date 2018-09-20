@@ -6,12 +6,25 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+
+    <string name="f1">Dasam Fall</string>
+    <string name="f2">Hundru Fall</string>
+    <string name="f3">Sita Fall</string>
+    <string name="f4">Jona Fall</string>
+    <string name="f5">Hirni Fall</string>
     <string name="dasam">The Dassam Falls is 40 kilometres (25 mi) from Ranchi on NH 33 or Ranchi-Jamshedpur highway.</string>
     <string name="hundru">The Hundru Falls is a waterfall located in Ranchi district in the Indian state of Jharkhand. It is the 34th highest waterfall in India.</string>
     <string name="sita">Sita falls is located in Ramgarh district of Jharkhand state. The district is located at 23°20’30″N   85°38’38″E.</string>
     <string name="jona">The Jonha Falls (Hindi: जोन्हा जलप्रपात) (also called Gautamdhara Falls) is a waterfall located in Ranchi district in the Indian state of Jharkhand.The Jonha Falls (Hindi: जोन्हा जलप्रपात) (also called Gautamdhara Falls) is a waterfall located in Ranchi district in the Indian state of Jharkhand.</string>
     <string name="hirni">Hirni Falls is a waterfall located in West Singhbhum in the Indian state of Jharkhand</string>
 
+    <string name="ff1">Pitha</string>
+    <string name="ff2">Dhuska</string>
+    <string name="ff3">Rugra</string>
+    <string name="ff4">Thekua</string>
+    <string name="ff5">Litti</string>
+    <string name="ff6">Chilka</string>
+    <string name="ff7">Bamboo Stick</string>
     <string name="Pitha">The Pitthas in Jharkhand have a flavour of their own and is eaten with a variety of side dishes which sets it apart.</string>
     <string name="Dhuska">Dhuska is one of the most popular items in Jharkhand and is a part of every household. Your journey to Jharkhand is incomplete without tasting Dhuska</string>
     <string name="Rugra">Rugra is an item which tastes like mushroom and is very delicious to eat. Rugra is basically an indigenous variety of vegetable, rich in protein and minerals and high on calorific value</string>
@@ -20,11 +33,22 @@
     <string name="Chilka">Chilka Roti is one of those dishes which are prepared using rice flour and besan.</string>
     <string name="bamboo_stick">The local people prepare a variety of dishes from the bamboo shot and mainly use it as a vegetable. You have to try it to experience its out-of-the-world flavour</string>
 
+    <string name="p1">Jubli Park</string>
+    <string name="p2">Rock Garden</string>
+    <string name="p3">Tagore Hill</string>
+    <string name="p4">Water Park</string>
     <string name="Jubli">Jubilee Park is a park located in the city of Jamshedpur in India. It is a popular destination for all those who wish to have an outdoor picnic, enjoy some outdoor ...</string>
     <string name="Rock">Rock Garden in Ranchi is considered to be one of the most visited places of the city as well as the state.</string>
     <string name="Tagore">The Tagore Hill also known as Morabadi Hill is situated in Morabadi, Ranchi, Jharkhand.It's a place of attraction for jharkhand tourism due to its connection with great poet Rabindra Nath Tagore.</string>
     <string name="Water">Fun Castle is the best water Park in Ranchi.If you are in Ranchi and when ever you gonna ask about the full Family and friends Masti Pack than one and only Name will come out that is Fun Castle Water Park. </string>
 
+    <string name="m1">Eyelex</string>
+    <string name="m2">PopCorn</string>
+    <string name="m3">Fun</string>
+    <string name="m4">PVR</string>
+    <string name="m5">Carnival</string>
+    <string name="m6">JD HIGH STREET</string>
+    <string name="m7">Plaza</string>
     <string name="Eyelex"> Find Cinema Halls running ✓Hindi Movies, ✓English Movies, ✓Tamil Movies, ✓Telugu Movies, ✓Marathi Movies, ✓Malayalam Movies, ...</string>
     <string name="Popcorn"> Find Cinema Halls running ✓Hindi Movies, ✓English Movies, ✓Tamil Movies, ✓Telugu Movies, ✓Marathi Movies, ✓Malayalam Movies, ...</string>
     <string name="Fun"> Find Cinema Halls running ✓Hindi Movies, ✓English Movies, ✓Tamil Movies, ✓Telugu Movies, ✓Marathi Movies, ✓Malayalam Movies, ...</string>

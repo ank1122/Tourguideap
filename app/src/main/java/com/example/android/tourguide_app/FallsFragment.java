@@ -35,11 +35,11 @@ public class FallsFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Tour> words = new ArrayList<Tour>();
-        words.add(new Tour("Dasam Fall", getResources().getString(R.string.dasam), R.drawable.dassam_fall));
-        words.add(new Tour("Hundru Fall", getResources().getString(R.string.hundru), R.drawable.hundru_fall));
-        words.add(new Tour("Sita fall", getResources().getString(R.string.sita), R.drawable.sita_fall));
-        words.add(new Tour("Jona Fall", getResources().getString(R.string.jona), R.drawable.jona_fall));
-        words.add(new Tour("Hirni Fall", getResources().getString(R.string.hirni), R.drawable.hirni_fall));
+        words.add(new Tour(getString(R.string.f1), getString(R.string.dasam), R.drawable.dassam_fall));
+        words.add(new Tour(getString(R.string.f2), getString(R.string.hundru), R.drawable.hundru_fall));
+        words.add(new Tour(getString(R.string.f3), getString(R.string.sita), R.drawable.sita_fall));
+        words.add(new Tour(getString(R.string.f4), getString(R.string.jona), R.drawable.jona_fall));
+        words.add(new Tour(getString(R.string.f5), getString(R.string.hirni), R.drawable.hirni_fall));
 
 
         TourAdapter adapter = new TourAdapter(getActivity(), words, R.color.category_numbers);

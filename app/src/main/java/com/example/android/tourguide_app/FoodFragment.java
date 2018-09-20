@@ -32,13 +32,13 @@ public class FoodFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Tour> words = new ArrayList<Tour>();
-        words.add(new Tour("Pitha", getString(R.string.Pitha), R.drawable.pitha));
-        words.add(new Tour("Dhuska", getString(R.string.Dhuska), R.drawable.dhuska_food));
-        words.add(new Tour("Rugra", getString(R.string.Rugra), R.drawable.rugra_food));
-        words.add(new Tour("Thekua", getString(R.string.Thekua), R.drawable.thekua));
-        words.add(new Tour("Litti", getString(R.string.Litti), R.drawable.litti));
-        words.add(new Tour("Chilka", getString(R.string.Chilka), R.drawable.chilka_food));
-        words.add(new Tour("Bamboo Shoot", getString(R.string.bamboo_stick), R.drawable.bamboo_shoot__food));
+        words.add(new Tour(getString(R.string.ff1), getString(R.string.Pitha), R.drawable.pitha));
+        words.add(new Tour(getString(R.string.ff2), getString(R.string.Dhuska), R.drawable.dhuska_food));
+        words.add(new Tour(getString(R.string.ff3), getString(R.string.Rugra), R.drawable.rugra_food));
+        words.add(new Tour(getString(R.string.ff4), getString(R.string.Thekua), R.drawable.thekua));
+        words.add(new Tour(getString(R.string.ff5), getString(R.string.Litti), R.drawable.litti));
+        words.add(new Tour(getString(R.string.ff6), getString(R.string.Chilka), R.drawable.chilka_food));
+        words.add(new Tour(getString(R.string.ff7), getString(R.string.bamboo_stick), R.drawable.bamboo_shoot__food));
 
 
 

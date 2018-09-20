@@ -33,10 +33,10 @@ public class ParkFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Tour> words = new ArrayList<Tour>();
-        words.add(new Tour("Jubli Park", getString(R.string.Jubli), R.drawable.jubli_park));
-        words.add(new Tour("Rock Garden", getString(R.string.Rock), R.drawable.rock_garden_park));
-        words.add(new Tour("Tagore Gill", getString(R.string.Tagore), R.drawable.tagore_hill_park));
-        words.add(new Tour("Water Park", getString(R.string.Water), R.drawable.water_park));
+        words.add(new Tour(getString(R.string.p1), getString(R.string.Jubli), R.drawable.jubli_park));
+        words.add(new Tour(getString(R.string.p2), getString(R.string.Rock), R.drawable.rock_garden_park));
+        words.add(new Tour(getString(R.string.p3), getString(R.string.Tagore), R.drawable.tagore_hill_park));
+        words.add(new Tour(getString(R.string.p4), getString(R.string.Water), R.drawable.water_park));
 
 
 
