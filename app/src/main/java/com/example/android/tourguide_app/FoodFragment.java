@@ -36,8 +36,8 @@ public class FoodFragment extends Fragment {
         words.add(new Tour(getString(R.string.ff2), getString(R.string.Dhuska), R.drawable.dhuska_food));
         words.add(new Tour(getString(R.string.ff3), getString(R.string.Rugra), R.drawable.rugra_food));
         words.add(new Tour(getString(R.string.ff4), getString(R.string.Thekua), R.drawable.thekua));
-        words.add(new Tour(getString(R.string.ff5), getString(R.string.Litti), R.drawable.litti));
         words.add(new Tour(getString(R.string.ff6), getString(R.string.Chilka), R.drawable.chilka_food));
+        words.add(new Tour(getString(R.string.ff5), getString(R.string.Litti), R.drawable.litti));
         words.add(new Tour(getString(R.string.ff7), getString(R.string.bamboo_stick), R.drawable.bamboo_shoot__food));
 
 

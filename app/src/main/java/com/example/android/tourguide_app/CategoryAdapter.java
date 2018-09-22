@@ -1,16 +1,17 @@
 package com.example.android.tourguide_app;
 
+import android.content.Context;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 
 
 public class CategoryAdapter extends FragmentPagerAdapter {
-    private String tabTitles[] = new String[]{"Falls", "Food", "Park","Movie"};
+   Context context;
 
-    public CategoryAdapter(FragmentManager fm) {
+    public CategoryAdapter(FragmentManager fm, Context nContext) {
         super(fm);
-
+        context = nContext;
     }
 
     @Override
@@ -31,8 +32,18 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        // Generate title based on item position
-        return tabTitles[position];
+        switch (position)
+        {
+            case 0:
+                return context.getResources().getString(R.string.ca1);
+            case 1:
+                return context.getResources().getString(R.string.ca2);
+            case 2:
+                return context.getResources().getString(R.string.ca3);
+            case 3:
+                return context.getResources().getString(R.string.ca4);
+        }
+        return null;
     }
 
     @Override

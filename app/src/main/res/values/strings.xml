@@ -7,6 +7,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
+    <string name="ca1">Falls</string>
+    <string name="ca2">Food</string>
+    <string name="ca3">Park</string>
+    <string name="ca4">Movie</string>
+
     <string name="f1">Dasam Fall</string>
     <string name="f2">Hundru Fall</string>
     <string name="f3">Sita Fall</string>

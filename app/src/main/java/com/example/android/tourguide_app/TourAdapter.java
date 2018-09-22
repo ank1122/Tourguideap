@@ -1,6 +1,7 @@
 package com.example.android.tourguide_app;
 
 import android.app.Activity;
+import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
@@ -16,6 +17,7 @@ import java.util.ArrayList;
 public class TourAdapter extends ArrayAdapter<Tour> {
 
     private int mColorResourceId;
+
 
     public TourAdapter(Activity context, ArrayList<Tour> words, int colorResourceId) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
